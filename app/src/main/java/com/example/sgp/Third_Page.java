@@ -136,7 +136,7 @@ public class Third_Page extends AppCompatActivity {
                                 finalrate=rate*(Double.parseDouble((col[i].getContents())));
 
 
-                                    if (rating<=10 && cnt<11 &&  finalrate>=0.11 && (Double.parseDouble((col[i].getContents())))>0.0)
+                                    if (rating<=10 && cnt<11 &&  finalrate>=0.1 && (Double.parseDouble((col[i].getContents())))>0.0)
                                     {
                                         storyTitle.add(rows[0].getContents());
                                         cnt++;
