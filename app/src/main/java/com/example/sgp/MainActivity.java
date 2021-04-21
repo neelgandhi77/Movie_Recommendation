@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     SearchView sebox;
     ListView list1;
-
+    Button b1;
     ArrayList<getsetclass_data> List = new ArrayList<>();
     ArrayAdapter<getsetclass_data> adapter;
 
@@ -44,6 +45,18 @@ public class MainActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, List);
         list1.setAdapter(adapter);
 
+       // b1=findViewById(R.id.submit5);
+        Intent i1 = new Intent(getApplicationContext(),Fourth_activity.class);
+        /*b1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                startActivity(i1);
+
+            }
+        });
+*/
         list1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

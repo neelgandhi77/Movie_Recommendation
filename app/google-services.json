@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87441338614",
+    "project_id": "sgpproject-ca85c",
+    "storage_bucket": "sgpproject-ca85c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87441338614:android:0d4cc2ce7efc8c094d3cd7",
+        "android_client_info": {
+          "package_name": "com.example.sgp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87441338614-8p47jglbemgas3lj09sf595eeb9bunrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR-Q7Lra5_JQHIzxbWoTs-pGgKYZrvKj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87441338614-8p47jglbemgas3lj09sf595eeb9bunrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
